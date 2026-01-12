@@ -1,6 +1,8 @@
 <html> 
 
 <head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
   <meta charset="UTF-8">
 
   <title>Robert Zhang's links</title>
@@ -8,9 +10,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
+    /*
     * {
      border: thin red solid;
     }
+     */
 
     html {
      min-height: 100%;
@@ -22,6 +26,7 @@
       padding-bottom: 40px;
       background: linear-gradient(90deg, #5b2e5a, #7c3363, #9d3866, #bc3f63, #d74d5a, #ec614b, #fa7b36, #ff9913);
       color: rgba(255, 255, 255, 1.0);
+      font-family: "Comic Sans MS"
     }
 
     a {
@@ -43,7 +48,11 @@
     }
 
     .item {
-      background-color: rgba(150, 125, 175, 0.5)
+      background-color: rgba(150, 125, 175, 0.5);
+      border-radius: 1000px;
+      padding: 5px;
+      padding-right:53px;
+      box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
     }
 
     .main-container{
@@ -59,12 +68,16 @@
     .name-row {
       margin-bottom: 30px;
       text-align: center;
+      font-family: "Georgia";
+      font-size: 35px;
+      font-weight: 900;
     }
 
     .social-icons-row {
       margin-bottom: 30px;
       display: flex;
       justify-content: space-around;
+      padding-right: 50px;
     }
 
     .item {
@@ -93,15 +106,15 @@
 
     <div class="social-icons-row">
       <a href="https://www.instagram.com/robert.zhang55/">
-        Instagram
+       <i class="fa-brands fa-instagram"></i> Instagram
       </a>
 
       <a href="https://www.linkedin.com/in/robert-zhang-78a061264/">
-        Linkedin
+       <i class="fa-brands fa-linkedin"></i> Linkedin
       </a>
 
       <a href="https://www.uchicagomag.com/">
-        Club
+        <i class="fa-solid fa-school"></i> Club
       </a>
     </div>
 
